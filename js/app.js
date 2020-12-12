@@ -296,7 +296,7 @@ const handleCellClick = (event) => {
 ////// EVENT LISTENERS
 //////////////////////////
 
-// for of loops to loop over all cells & adds event listeners to them
+// for of loops to loop over all cells & add event listeners to them
 // when mouse moves over & away from any cell in DOM, appropriate handler function will fire
 for (const row of rows) {
     for (const cell of row) {
