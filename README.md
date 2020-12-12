@@ -7,20 +7,17 @@
 
 ## Concept:
 
-A full description of what your project is all about 
+tic-tac-toe-like two-player game in which players alternately drop colored chips into a virtual game board 7 columns across & 6 rows high. ... Both players begin with opposing colored chips (yellow or red - yellow goes first!), & the first player to achieve a line of four connected pieces wins the game.
 
 ## Technologies Used:
 
 * HTML
 * CSS
 * JavaScript 
-* External JavaScript Library
 
 ##### Credits:
 
-    Unsplash.com
-    unDraw.co
-    Slideshow Repo
+https://fonts.googleapis.com
 
 ## Approach:
 
@@ -29,50 +26,33 @@ Description of how you approach the game development. Here you will add all the 
 
 #### Wireframe
 
-<img src="https://res.cloudinary.com/duprwuo4j/image/upload/v1601671860/DesignOne_uevwek.png" width="80%" >
+<img src="[Imgur](https://i.imgur.com/7gCe47r.jpg)" width="80%" >
 
 Color Pallet:
 
 ```
-    #5d5174
-    #9680a4
-    #e2deea
-    #545454
-    #e4e0dd
-    #ffffff
+    #3a67e5
+    #4370F1
+    #1D50F1
+    #45d968
+
 ```
 
 #### User stories
 
-As an user I expect to see a button bla bla bla bla
 
 #### Development Plan 
 
-description of your development plan 
 
-* Development Plan  ONE
-* Development Plan  Two
-* Development Plan  Three 
-* Development Plan  Four
 
 #### MVP
 
-* MVP ONE
-* MVP Two
-* MVP Three 
-* MVP Four
 
 #### Stretch goals
 
-* Stretch goals ONE
-* Stretch goals Two
-* Stretch goals Three 
-* Stretch goals Four
+
 
 ## Challenges:
-
-Small description of a challange you faced. 
-
 
 
 
