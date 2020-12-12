@@ -63,11 +63,11 @@ h1 {
 }
   
 .cell:not(.row-top).red.win {
-    background: red;
+    background:  #45d968
 }
   
 .cell:not(.row-top).yellow.win {
-    background: yellow;
+    background:  #45d968
 }
   
 .cell.row-top {
