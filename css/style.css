@@ -1,0 +1,139 @@
+*, 
+*::before, 
+*::after {    
+    margin: 0;    
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    align-items: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Maven Pro', sans-serif;
+    padding: 2.5rem;
+    width: 100%;
+  }
+  
+h1 {
+    /* font-family: 'Maven Pro', sans-serif; */
+    font-size: 10rem;
+}
+  
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    height: 70rem;
+    margin: .5rem 0 2.5rem;
+    width: 70rem;
+}
+  
+.cell {
+    align-items: center;
+    background: #3a67e5;
+    display: flex;
+    height: 10rem;
+    justify-content: center;
+    width: 10rem;
+}
+
+/* insert after cell class within div */
+.cell::after {
+    background: white;
+    border-radius: 50%;
+    border: .3rem solid black;
+    content: '';
+    cursor: pointer;
+    height: 8rem;
+    width: 8rem;
+}
+  
+.cell:not(.row-top).red::after {
+    background: red;
+}
+
+.cell:not(.row-top).yellow::after {
+    background: yellow;
+}
+  
+.cell:not(.row-top).red.win {
+    background: red;
+}
+  
+.cell:not(.row-top).yellow.win {
+    background: yellow;
+}
+  
+.cell.row-top {
+    background: white;
+}
+  
+.cell.row-top::after {
+    border: none;
+}
+  
+.cell.row-top.red::after {
+    background: red;
+    border: .3rem solid black;
+}
+  
+.cell.row-top.yellow::after {
+    background: yellow;
+    border: .3rem solid black;
+}
+  
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 70rem;
+}
+  
+.reset {
+    background-color: #4370F1;
+    border-radius: .5rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.5rem 3rem;
+    text-transform: uppercase;
+}
+  
+.reset:hover {
+    background-color: #1D50F1;
+}
+  
+.reset:active {
+    background-color: #45d968;
+}
+  
+.status {
+    display: block;
+    font-size: 5rem;
+}
+  
+.left-border {
+    border-left: .3rem solid black;
+}
+  
+.top-border {
+    border-top: .3rem solid black;
+}
+  
+.right-border {
+    border-right: .3rem solid black;
+}
+  
+.bottom-border {
+    border-bottom: .3rem solid black;
+}
+  
